@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Meet Attendance Tracker",
+  "version": "1.0",
+  "description": "Automatically capture Google Meet participant attendance for teachers.",
+
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+
+  "host_permissions": [
+    "https://meet.google.com/*"
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Capture Attendance"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
