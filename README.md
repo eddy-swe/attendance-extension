@@ -17,9 +17,9 @@
 1. Join a Google Meet as a student. The extension will automatically log your attendance.
 2. As a teacher, click on the extension icon to view the attendance records for the current Meet.
 
-## Screenshots
-![Popup Screenshot](readme-img/attendance_popup_mockup.html)
-![Attendance Log Screenshot](readme-img/attendance_log_mockup.html)
+## Structure
+readme-img/attendance_popup_mockup.html
+readme-img/attendance_log_mockup.html
 
 ## File Structure
 attendance-extension/
