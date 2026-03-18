@@ -7,7 +7,7 @@
 - Provides a user-friendly popup for teachers to view attendance records.
 
 ## Installation
-1. Clone the repository or download the ZIP file.
+1. Clone the repository.
 2. Open Google Chrome and navigate to `chrome://extensions/`.
 3. Enable "Developer mode" using the toggle in the top right corner.
 4. Click on "Load unpacked" and select the `attendance-extension` folder.
