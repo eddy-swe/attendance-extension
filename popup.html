@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet Attendance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <div class="header">
+    <div class="header-text">
+      <h1>Meet Attendance</h1>
+      <p id="subtitle">Ready to capture</p>
+    </div>
+    <div class="status-dot" id="status-dot"></div>
+  </div>
+
+  <!-- ── Class name input ── -->
+  <div class="controls-section">
+    <input
+      type="text"
+      id="class-name"
+      placeholder="Class name (e.g. Math 101)"
+      class="class-input"
+    />
+    <button id="capture-btn" class="btn btn-primary">
+      Capture participants
+    </button>
+    <div class="row-buttons">
+      <button id="select-all-btn" class="btn btn-small">Select all</button>
+      <button id="deselect-all-btn" class="btn btn-small">Deselect all</button>
+    </div>
+  </div>
+
+  <!-- ── Participant list ── -->
+  <div id="participant-list" class="participant-list">
+    <p class="empty-message">
+      Open the participants panel in Google Meet, then click "Capture participants".
+    </p>
+  </div>
+
+  <!-- ── Footer / Export ── -->
+  <div class="footer">
+    <p id="summary" class="summary-text">No attendance captured yet</p>
+    <div class="row-buttons">
+      <button id="csv-btn" class="btn btn-small">Download CSV</button>
+      <button id="sheets-btn" class="btn btn-success">Send to Sheets</button>
+    </div>
+  </div>
+
+  <!-- popup.js must be loaded AFTER the HTML elements above exist -->
+  <script src="popup.js"></script>
+
+</body>
+</html>
