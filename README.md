@@ -22,11 +22,11 @@
 
 ## File Structure
 attendance-extension/
-├── manifest.json      ← The extension's birth certificate
-├── content.js         ← The DOM spy inside Google Meet
-├── popup.html         ← What the teacher sees when clicking the icon
-├── popup.js           ← The logic powering the popup
-└── styles.css         ← Styling for the popup
+- ├── manifest.json      ← The extension's birth certificate
+- ├── content.js         ← The DOM spy inside Google Meet
+- ├── popup.html         ← What the teacher sees when clicking the icon
+- ├── popup.js           ← The logic powering the popup
+- └── styles.css         ← Styling for the popup
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
