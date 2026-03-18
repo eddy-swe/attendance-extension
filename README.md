@@ -18,7 +18,8 @@
 2. As a teacher, click on the extension icon to view the attendance records for the current Meet.
 
 ## Structure
-<img src="/readme-img/attendance_popup_mockup.html" alt="Extension Structure Diagram" />
+<img src="/readme-img/chrome_extension_architecture.svg" alt="Extension Structure Diagram" />
+
 <img src="https://via.placeholder.com/600x400" alt="Extension Workflow Diagram" />
 
 ## File Structure
