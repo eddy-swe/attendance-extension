@@ -17,6 +17,10 @@
 1. Join a Google Meet as a student. The extension will automatically log your attendance.
 2. As a teacher, click on the extension icon to view the attendance records for the current Meet.
 
+## Screenshots
+![Popup Screenshot](readme-img/attendance_popup_mockup.html)
+![Attendance Log Screenshot](readme-img/attendance_log_mockup.html)
+
 ## File Structure
 attendance-extension/
 ├── manifest.json      ← The extension's birth certificate
@@ -24,3 +28,10 @@ attendance-extension/
 ├── popup.html         ← What the teacher sees when clicking the icon
 ├── popup.js           ← The logic powering the popup
 └── styles.css         ← Styling for the popup
+
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
