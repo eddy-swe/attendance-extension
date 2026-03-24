@@ -1,5 +1,5 @@
 # Attendance Chrome Extension
-- A chrome extension to automate attendance logging for students on Google Meets.(Vibe Coded)
+- A chrome extension to automate attendance logging for students on Google Meets. (Vibe Coded)
 
 ## Features
 - Logs attendance in a simple format.
@@ -25,7 +25,7 @@
 ## How it Works - the Mental Model
 <img src="/readme-img/chrome_extension_architecture.svg" alt="Extension Structure Diagram" />
 
-### The three programs are: 
+### There are three programs here: 
 - `content.js` (lives inside the Google Meet tab and can see the DOM), 
 - `popup.js` (runs in the extension's popup window and is your teacher UI), and 
 - `manifest.json` (the config file that wires everything together and declares permissions). 
